@@ -1,0 +1,4 @@
+﻿  估计cache大小.cpp
+E:\2020213655 袁媛\并行计算测试\估计cache大小.cpp(21,28): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\2020213655 袁媛\并行计算测试\估计cache大小.cpp(23,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  并行计算测试.vcxproj -> E:\2020213655 袁媛\Debug\并行计算测试.exe
