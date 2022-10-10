@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "算法KMP、BF", "算法KMP
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "并行计算测试", "并行计算测试\并行计算测试.vcxproj", "{C41D12EB-5E55-41C4-A5E2-474AC59009F9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符串数组中的最长公共前缀", "字符串数组中的最长公共前缀\字符串数组中的最长公共前缀.vcxproj", "{CE8B0A3B-427C-4A7E-8ADE-C59EDD26E9E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{C41D12EB-5E55-41C4-A5E2-474AC59009F9}.Release|x64.Build.0 = Release|x64
 		{C41D12EB-5E55-41C4-A5E2-474AC59009F9}.Release|x86.ActiveCfg = Release|Win32
 		{C41D12EB-5E55-41C4-A5E2-474AC59009F9}.Release|x86.Build.0 = Release|Win32
+		{CE8B0A3B-427C-4A7E-8ADE-C59EDD26E9E4}.Debug|x64.ActiveCfg = Debug|x64
+		{CE8B0A3B-427C-4A7E-8ADE-C59EDD26E9E4}.Debug|x64.Build.0 = Debug|x64
+		{CE8B0A3B-427C-4A7E-8ADE-C59EDD26E9E4}.Debug|x86.ActiveCfg = Debug|Win32
+		{CE8B0A3B-427C-4A7E-8ADE-C59EDD26E9E4}.Debug|x86.Build.0 = Debug|Win32
+		{CE8B0A3B-427C-4A7E-8ADE-C59EDD26E9E4}.Release|x64.ActiveCfg = Release|x64
+		{CE8B0A3B-427C-4A7E-8ADE-C59EDD26E9E4}.Release|x64.Build.0 = Release|x64
+		{CE8B0A3B-427C-4A7E-8ADE-C59EDD26E9E4}.Release|x86.ActiveCfg = Release|Win32
+		{CE8B0A3B-427C-4A7E-8ADE-C59EDD26E9E4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
