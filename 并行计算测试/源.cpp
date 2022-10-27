@@ -4,7 +4,7 @@
 #include <time.h> 
 #include <iostream>
 using namespace std;
-#define N 512
+#define N 2048
 int(*matrix1)[N];
 int(*flag)[N];
 int* matrix2;
@@ -32,6 +32,8 @@ void ColFirst() {
   }
 }
 int main() {
+QueryPerformanceFrequency(&freq1);
+QueryPerformanceCounter(&start1);
  matrix1 = new int[N][N];
  matrix2 = new int[N];
  ans = new int[N];
@@ -45,12 +47,10 @@ int main() {
  for (int i = 0; i < N; i++) {
   matrix2[i] = rand() % 1000;
  }
- QueryPerformanceFrequency(&freq1);
- QueryPerformanceCounter(&start1);
  RowFirst();
  QueryPerformanceCounter(&end1);
  double dTimeTake = (double)(end1.QuadPart - start1.QuadPart) / (double)freq1.QuadPart*1000.0;
- cout << dTimeTake << endl;
+ cout << "单进程运行时间" << dTimeTake << "ms" << endl;
  QueryPerformanceFrequency(&freq1);
  QueryPerformanceCounter(&start1);
  ColFirst();
