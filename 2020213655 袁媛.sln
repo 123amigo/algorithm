@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "环形链表", "环形链�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树的最大深度", "二叉树的最大深度\二叉树的最大深度.vcxproj", "{36C8784E-0905-4758-843F-1E5EAED9A7AB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "验证二叉搜索树", "验证二叉搜索树\验证二叉搜索树.vcxproj", "{BEEFB9FC-ED1D-4353-9402-C51C3367021F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -291,6 +293,14 @@ Global
 		{36C8784E-0905-4758-843F-1E5EAED9A7AB}.Release|x64.Build.0 = Release|x64
 		{36C8784E-0905-4758-843F-1E5EAED9A7AB}.Release|x86.ActiveCfg = Release|Win32
 		{36C8784E-0905-4758-843F-1E5EAED9A7AB}.Release|x86.Build.0 = Release|Win32
+		{BEEFB9FC-ED1D-4353-9402-C51C3367021F}.Debug|x64.ActiveCfg = Debug|x64
+		{BEEFB9FC-ED1D-4353-9402-C51C3367021F}.Debug|x64.Build.0 = Debug|x64
+		{BEEFB9FC-ED1D-4353-9402-C51C3367021F}.Debug|x86.ActiveCfg = Debug|Win32
+		{BEEFB9FC-ED1D-4353-9402-C51C3367021F}.Debug|x86.Build.0 = Debug|Win32
+		{BEEFB9FC-ED1D-4353-9402-C51C3367021F}.Release|x64.ActiveCfg = Release|x64
+		{BEEFB9FC-ED1D-4353-9402-C51C3367021F}.Release|x64.Build.0 = Release|x64
+		{BEEFB9FC-ED1D-4353-9402-C51C3367021F}.Release|x86.ActiveCfg = Release|Win32
+		{BEEFB9FC-ED1D-4353-9402-C51C3367021F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
