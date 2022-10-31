@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树的最大深度", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "验证二叉搜索树", "验证二叉搜索树\验证二叉搜索树.vcxproj", "{BEEFB9FC-ED1D-4353-9402-C51C3367021F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "对称二叉树", "对称二叉树\对称二叉树.vcxproj", "{A9772587-9E75-4D63-B0FC-755494DD53AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{BEEFB9FC-ED1D-4353-9402-C51C3367021F}.Release|x64.Build.0 = Release|x64
 		{BEEFB9FC-ED1D-4353-9402-C51C3367021F}.Release|x86.ActiveCfg = Release|Win32
 		{BEEFB9FC-ED1D-4353-9402-C51C3367021F}.Release|x86.Build.0 = Release|Win32
+		{A9772587-9E75-4D63-B0FC-755494DD53AD}.Debug|x64.ActiveCfg = Debug|x64
+		{A9772587-9E75-4D63-B0FC-755494DD53AD}.Debug|x64.Build.0 = Debug|x64
+		{A9772587-9E75-4D63-B0FC-755494DD53AD}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9772587-9E75-4D63-B0FC-755494DD53AD}.Debug|x86.Build.0 = Debug|Win32
+		{A9772587-9E75-4D63-B0FC-755494DD53AD}.Release|x64.ActiveCfg = Release|x64
+		{A9772587-9E75-4D63-B0FC-755494DD53AD}.Release|x64.Build.0 = Release|x64
+		{A9772587-9E75-4D63-B0FC-755494DD53AD}.Release|x86.ActiveCfg = Release|Win32
+		{A9772587-9E75-4D63-B0FC-755494DD53AD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
