@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "对称二叉树", "对称�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树的层序遍历", "二叉树的层序遍历\二叉树的层序遍历.vcxproj", "{427DFB01-5694-47C9-BC25-0B5A5D324B0C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "将有序数组转换为二叉搜索树", "将有序数组转换为二叉搜索树\将有序数组转换为二叉搜索树.vcxproj", "{9070F14D-4060-4F20-8FA5-CBAAC1E0009A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -321,6 +323,14 @@ Global
 		{427DFB01-5694-47C9-BC25-0B5A5D324B0C}.Release|x64.Build.0 = Release|x64
 		{427DFB01-5694-47C9-BC25-0B5A5D324B0C}.Release|x86.ActiveCfg = Release|Win32
 		{427DFB01-5694-47C9-BC25-0B5A5D324B0C}.Release|x86.Build.0 = Release|Win32
+		{9070F14D-4060-4F20-8FA5-CBAAC1E0009A}.Debug|x64.ActiveCfg = Debug|x64
+		{9070F14D-4060-4F20-8FA5-CBAAC1E0009A}.Debug|x64.Build.0 = Debug|x64
+		{9070F14D-4060-4F20-8FA5-CBAAC1E0009A}.Debug|x86.ActiveCfg = Debug|Win32
+		{9070F14D-4060-4F20-8FA5-CBAAC1E0009A}.Debug|x86.Build.0 = Debug|Win32
+		{9070F14D-4060-4F20-8FA5-CBAAC1E0009A}.Release|x64.ActiveCfg = Release|x64
+		{9070F14D-4060-4F20-8FA5-CBAAC1E0009A}.Release|x64.Build.0 = Release|x64
+		{9070F14D-4060-4F20-8FA5-CBAAC1E0009A}.Release|x86.ActiveCfg = Release|Win32
+		{9070F14D-4060-4F20-8FA5-CBAAC1E0009A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
